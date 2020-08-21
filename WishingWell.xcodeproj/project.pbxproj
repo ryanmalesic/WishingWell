@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD81403424F0531800089446 /* WishingWellApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD81403324F0531800089446 /* WishingWellApp.swift */; };
+		AD81403624F0531800089446 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD81403524F0531800089446 /* ContentView.swift */; };
+		AD81403824F0531900089446 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD81403724F0531900089446 /* Assets.xcassets */; };
+		AD81403B24F0531900089446 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD81403A24F0531900089446 /* Preview Assets.xcassets */; };
+		AD81404624F0531900089446 /* WishingWellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD81404524F0531900089446 /* WishingWellTests.swift */; };
+		AD81405124F0531900089446 /* WishingWellUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD81405024F0531900089446 /* WishingWellUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD81404224F0531900089446 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD81402824F0531800089446 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD81402F24F0531800089446;
+			remoteInfo = WishingWell;
+		};
+		AD81404D24F0531900089446 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD81402824F0531800089446 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD81402F24F0531800089446;
+			remoteInfo = WishingWell;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AD81403024F0531800089446 /* WishingWell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WishingWell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD81403324F0531800089446 /* WishingWellApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishingWellApp.swift; sourceTree = "<group>"; };
+		AD81403524F0531800089446 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AD81403724F0531900089446 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD81403A24F0531900089446 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AD81403C24F0531900089446 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD81404124F0531900089446 /* WishingWellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WishingWellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD81404524F0531900089446 /* WishingWellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishingWellTests.swift; sourceTree = "<group>"; };
+		AD81404724F0531900089446 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD81404C24F0531900089446 /* WishingWellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WishingWellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD81405024F0531900089446 /* WishingWellUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishingWellUITests.swift; sourceTree = "<group>"; };
+		AD81405224F0531900089446 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD81402D24F0531800089446 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD81403E24F0531900089446 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD81404924F0531900089446 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD81402724F0531800089446 = {
+			isa = PBXGroup;
+			children = (
+				AD81403224F0531800089446 /* WishingWell */,
+				AD81404424F0531900089446 /* WishingWellTests */,
+				AD81404F24F0531900089446 /* WishingWellUITests */,
+				AD81403124F0531800089446 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD81403124F0531800089446 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD81403024F0531800089446 /* WishingWell.app */,
+				AD81404124F0531900089446 /* WishingWellTests.xctest */,
+				AD81404C24F0531900089446 /* WishingWellUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD81403224F0531800089446 /* WishingWell */ = {
+			isa = PBXGroup;
+			children = (
+				AD81403324F0531800089446 /* WishingWellApp.swift */,
+				AD81403524F0531800089446 /* ContentView.swift */,
+				AD81403724F0531900089446 /* Assets.xcassets */,
+				AD81403C24F0531900089446 /* Info.plist */,
+				AD81403924F0531900089446 /* Preview Content */,
+			);
+			path = WishingWell;
+			sourceTree = "<group>";
+		};
+		AD81403924F0531900089446 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AD81403A24F0531900089446 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AD81404424F0531900089446 /* WishingWellTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD81404524F0531900089446 /* WishingWellTests.swift */,
+				AD81404724F0531900089446 /* Info.plist */,
+			);
+			path = WishingWellTests;
+			sourceTree = "<group>";
+		};
+		AD81404F24F0531900089446 /* WishingWellUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD81405024F0531900089446 /* WishingWellUITests.swift */,
+				AD81405224F0531900089446 /* Info.plist */,
+			);
+			path = WishingWellUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD81402F24F0531800089446 /* WishingWell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD81405524F0531900089446 /* Build configuration list for PBXNativeTarget "WishingWell" */;
+			buildPhases = (
+				AD81402C24F0531800089446 /* Sources */,
+				AD81402D24F0531800089446 /* Frameworks */,
+				AD81402E24F0531800089446 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WishingWell;
+			productName = WishingWell;
+			productReference = AD81403024F0531800089446 /* WishingWell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD81404024F0531900089446 /* WishingWellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD81405824F0531900089446 /* Build configuration list for PBXNativeTarget "WishingWellTests" */;
+			buildPhases = (
+				AD81403D24F0531900089446 /* Sources */,
+				AD81403E24F0531900089446 /* Frameworks */,
+				AD81403F24F0531900089446 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD81404324F0531900089446 /* PBXTargetDependency */,
+			);
+			name = WishingWellTests;
+			productName = WishingWellTests;
+			productReference = AD81404124F0531900089446 /* WishingWellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD81404B24F0531900089446 /* WishingWellUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD81405B24F0531900089446 /* Build configuration list for PBXNativeTarget "WishingWellUITests" */;
+			buildPhases = (
+				AD81404824F0531900089446 /* Sources */,
+				AD81404924F0531900089446 /* Frameworks */,
+				AD81404A24F0531900089446 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD81404E24F0531900089446 /* PBXTargetDependency */,
+			);
+			name = WishingWellUITests;
+			productName = WishingWellUITests;
+			productReference = AD81404C24F0531900089446 /* WishingWellUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD81402824F0531800089446 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					AD81402F24F0531800089446 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					AD81404024F0531900089446 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = AD81402F24F0531800089446;
+					};
+					AD81404B24F0531900089446 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = AD81402F24F0531800089446;
+					};
+				};
+			};
+			buildConfigurationList = AD81402B24F0531800089446 /* Build configuration list for PBXProject "WishingWell" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD81402724F0531800089446;
+			productRefGroup = AD81403124F0531800089446 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD81402F24F0531800089446 /* WishingWell */,
+				AD81404024F0531900089446 /* WishingWellTests */,
+				AD81404B24F0531900089446 /* WishingWellUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD81402E24F0531800089446 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD81403B24F0531900089446 /* Preview Assets.xcassets in Resources */,
+				AD81403824F0531900089446 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD81403F24F0531900089446 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD81404A24F0531900089446 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD81402C24F0531800089446 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD81403624F0531800089446 /* ContentView.swift in Sources */,
+				AD81403424F0531800089446 /* WishingWellApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD81403D24F0531900089446 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD81404624F0531900089446 /* WishingWellTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD81404824F0531900089446 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD81405124F0531900089446 /* WishingWellUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD81404324F0531900089446 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD81402F24F0531800089446 /* WishingWell */;
+			targetProxy = AD81404224F0531900089446 /* PBXContainerItemProxy */;
+		};
+		AD81404E24F0531900089446 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD81402F24F0531800089446 /* WishingWell */;
+			targetProxy = AD81404D24F0531900089446 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AD81405324F0531900089446 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD81405424F0531900089446 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD81405624F0531900089446 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"WishingWell/Preview Content\"";
+				DEVELOPMENT_TEAM = JDC2579VGX;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = WishingWell/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ryanmalesic.WishingWell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD81405724F0531900089446 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"WishingWell/Preview Content\"";
+				DEVELOPMENT_TEAM = JDC2579VGX;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = WishingWell/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ryanmalesic.WishingWell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AD81405924F0531900089446 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JDC2579VGX;
+				INFOPLIST_FILE = WishingWellTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ryanmalesic.WishingWellTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WishingWell.app/WishingWell";
+			};
+			name = Debug;
+		};
+		AD81405A24F0531900089446 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JDC2579VGX;
+				INFOPLIST_FILE = WishingWellTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ryanmalesic.WishingWellTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WishingWell.app/WishingWell";
+			};
+			name = Release;
+		};
+		AD81405C24F0531900089446 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JDC2579VGX;
+				INFOPLIST_FILE = WishingWellUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ryanmalesic.WishingWellUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WishingWell;
+			};
+			name = Debug;
+		};
+		AD81405D24F0531900089446 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JDC2579VGX;
+				INFOPLIST_FILE = WishingWellUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ryanmalesic.WishingWellUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WishingWell;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD81402B24F0531800089446 /* Build configuration list for PBXProject "WishingWell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD81405324F0531900089446 /* Debug */,
+				AD81405424F0531900089446 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD81405524F0531900089446 /* Build configuration list for PBXNativeTarget "WishingWell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD81405624F0531900089446 /* Debug */,
+				AD81405724F0531900089446 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD81405824F0531900089446 /* Build configuration list for PBXNativeTarget "WishingWellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD81405924F0531900089446 /* Debug */,
+				AD81405A24F0531900089446 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD81405B24F0531900089446 /* Build configuration list for PBXNativeTarget "WishingWellUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD81405C24F0531900089446 /* Debug */,
+				AD81405D24F0531900089446 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD81402824F0531800089446 /* Project object */;
+}
